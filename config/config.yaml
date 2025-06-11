@@ -1,0 +1,142 @@
+# Sekai Multi-Agent System Configuration
+# ====================================
+
+# model provider configuration
+providers:
+  openai:
+    name: "OpenAI"
+    api_key_env: "OPENAI_API_KEY"
+    models:
+      gpt-4:
+        name: "gpt-4"
+        pricing:
+          input_per_1k: 0.03    # $0.03 per 1K input tokens
+          output_per_1k: 0.06   # $0.06 per 1K output tokens
+        max_tokens: 4096
+        context_window: 8192
+      gpt-4o:
+        name: "gpt-4o"
+        pricing:
+          input_per_1k: 0.005   # $0.005 per 1K input tokens
+          output_per_1k: 0.015  # $0.015 per 1K output tokens
+        max_tokens: 4096
+        context_window: 128000
+      gpt-4o-mini:
+        name: "gpt-4o-mini"
+        pricing:
+          input_per_1k: 0.00015 # $0.00015 per 1K input tokens
+          output_per_1k: 0.0006 # $0.0006 per 1K output tokens
+        max_tokens: 16384
+        context_window: 128000
+
+  anthropic:
+    name: "Anthropic"
+    api_key_env: "ANTHROPIC_API_KEY"
+    models:
+      claude-3-5-sonnet:
+        name: "claude-3-5-sonnet-20241022"
+        pricing:
+          input_per_1k: 0.003   # $0.003 per 1K input tokens
+          output_per_1k: 0.015  # $0.015 per 1K output tokens
+        max_tokens: 8192
+        context_window: 200000
+      claude-3-5-haiku:
+        name: "claude-3-5-haiku-20241022"
+        pricing:
+          input_per_1k: 0.0008  # $0.0008 per 1K input tokens
+          output_per_1k: 0.004  # $0.004 per 1K output tokens
+        max_tokens: 8192
+        context_window: 200000
+
+  google:
+    name: "Google"
+    api_key_env: "GOOGLE_API_KEY"
+    models:
+      gemini-2.0-flash:
+        name: "gemini-2.0-flash"
+        pricing:
+          input_per_1k: 0.0001  # $0.0001 per 1K input tokens
+          output_per_1k: 0.0004 # $0.0004 per 1K output tokens
+        max_tokens: 8192
+        context_window: 1000000
+      gemini-2.0-flash-lite:
+        name: "gemini-2.0-flash-lite"
+        pricing:
+          input_per_1k: 0.000075 # $0.00075 per 1M input tokens (converted to 1K)
+          output_per_1k: 0.0003  # $0.003 per 1M output tokens (converted to 1K)
+        max_tokens: 8192
+        context_window: 1000000
+
+# agent configuration
+agents:
+  prompt_optimizer:
+    provider: "google"
+    model: "gemini-2.0-flash-lite"
+    temperature: 0.5
+    max_tokens: 100000
+    description: "analyze the evaluation results and suggest prompt improvements"
+
+  recommendation:
+    provider: "google"
+    model: "gemini-2.0-flash-lite"
+    temperature: 0.1
+    max_tokens: 100000
+    description: "fast story recommendations based on user tags"
+
+  evaluation:
+    provider: "google"
+    model: "gemini-2.0-flash"
+    temperature: 0
+    max_tokens: 100000
+    description: "user behavior simulation and evaluation scoring"
+
+# autonomous optimization configuration
+autonomous:
+  target_score: 0.8
+  max_iterations: 5
+  time_budget_minutes: 10.0
+  min_improvement_threshold: 0.02
+  adaptive_target: true
+  early_stopping_patience: 2
+
+# preset configuration
+presets:
+  openai:
+    prompt_optimizer:
+      provider: "openai"
+      model: "gpt-4"
+      temperature: 0.3
+      max_tokens: 1000
+      description: "GPT-4 for prompt optimization"
+    recommendation:
+      provider: "openai"
+      model: "gpt-4o-mini"
+      temperature: 0.1
+      max_tokens: 500
+      description: "GPT-4o-mini for fast recommendations"
+    evaluation:
+      provider: "openai"
+      model: "gpt-4"
+      temperature: 0.2
+      max_tokens: 2000
+      description: "GPT-4 for evaluation"
+
+  anthropic:
+    prompt_optimizer:
+      provider: "anthropic"
+      model: "claude-3-5-sonnet"
+      temperature: 0.3
+      max_tokens: 1000
+      description: "Claude for prompt optimization"
+    recommendation:
+      provider: "anthropic"
+      model: "claude-3-5-haiku"
+      temperature: 0.1
+      max_tokens: 500
+      description: "Claude Haiku for fast recommendations"
+    evaluation:
+      provider: "anthropic"
+      model: "claude-3-5-sonnet"
+      temperature: 0.2
+      max_tokens: 2000
+      description: "Claude for evaluation" 

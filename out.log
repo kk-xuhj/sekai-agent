@@ -1,0 +1,347 @@
+02:51:48 - INFO - (main.py:296) - Starting Sekai Self Evolving System (SSES)
+02:51:48 - INFO - (dspy.py:119) - ✅ DSPy LM configured
+02:51:48 - INFO - (prompt_optimizer.py:39) - ✅ Prompt Optimizer Agent initialization completed
+02:51:54 - INFO - (vector_store.py:44) - ✅ Milvus vector store initialized successfully
+02:51:54 - INFO - (dspy.py:165) - ✅ DSPy recommendation module initialized
+02:51:54 - INFO - (recommendation.py:24) - ✅ Recommendation Agent initialization completed
+02:51:54 - INFO - (evaluation.py:44) - ✅ Evaluation Agent initialized
+02:51:54 - INFO - (main.py:65) - ✅ all agents initialized
+02:51:54 - INFO - (main.py:308) - 🎯 Configuration: target 0.7, max 3 rounds, 3 minutes
+02:51:54 - INFO - (main.py:336) - user settings: 3/45 tags (6.7%)
+02:51:54 - INFO - (main.py:340) - start autonomous optimization loop
+02:51:54 - INFO - (recommendation.py:119) - 🎯 Starting complete story recommendation - target story count: 10
+02:51:56 - INFO - (recommendation.py:91) - ✅ Recommendation completed, selected story IDs: [301030, 1001, 1009, 301018, 301034, 1005, 301009, 301020, 301001, 1003]
+02:51:56 - INFO - (recommendation.py:160) - ✅ Complete recommendation finished, returning 10 stories
+02:51:56 - INFO - (evaluation.py:50) - 📊 Evaluation Agent: start evaluating recommendations...
+02:51:56 - INFO - (recommendation.py:119) - 🎯 Starting complete story recommendation - target story count: 10
+02:51:58 - INFO - (recommendation.py:91) - ✅ Recommendation completed, selected story IDs: [301039, 1009, 301007, 301010, 301004, 301024, 301023, 301001, 1003, 301021]
+02:51:58 - INFO - (recommendation.py:160) - ✅ Complete recommendation finished, returning 10 stories
+02:51:58 - INFO - (main.py:123) -  1th evaluation - total score: 0.300
+02:51:58 - INFO - (main.py:126) -    Precision: 0.300
+02:51:58 - INFO - (main.py:163) - initial score: 0.300
+02:51:58 - INFO - (main.py:71) - 🔧 start prompt optimization, may take 2-3 minutes
+Sekai Self Evolving System (SSES)
+Bootstrapping set 1/6
+Bootstrapping set 2/6
+Bootstrapping set 3/6
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+ 50%|█████     | 1/2 [00:02<00:02,  2.28s/it]
+100%|██████████| 2/2 [00:05<00:00,  2.83s/it]
+100%|██████████| 2/2 [00:05<00:00,  2.75s/it]
+Bootstrapped 2 full traces after 1 examples for up to 1 rounds, amounting to 2 attempts.
+Bootstrapping set 4/6
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+ 50%|█████     | 1/2 [00:03<00:03,  3.01s/it]
+100%|██████████| 2/2 [00:05<00:00,  2.66s/it]
+100%|██████████| 2/2 [00:05<00:00,  2.72s/it]
+Bootstrapped 2 full traces after 1 examples for up to 1 rounds, amounting to 2 attempts.
+Bootstrapping set 5/6
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+ 50%|█████     | 1/2 [00:02<00:02,  2.82s/it]
+100%|██████████| 2/2 [00:05<00:00,  2.66s/it]
+100%|██████████| 2/2 [00:05<00:00,  2.69s/it]
+Bootstrapped 2 full traces after 1 examples for up to 1 rounds, amounting to 2 attempts.
+Bootstrapping set 6/6
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+ 50%|█████     | 1/2 [00:02<00:02,  2.76s/it]
+ 50%|█████     | 1/2 [00:02<00:02,  2.76s/it]
+Bootstrapped 1 full traces after 1 examples for up to 1 rounds, amounting to 1 attempts.
+
+  0%|          | 0/4 [00:00<?, ?it/s]
+Average Metric: 1.00 / 1 (100.0%):   0%|          | 0/4 [00:01<?, ?it/s]
+Average Metric: 1.00 / 1 (100.0%):  25%|██▌       | 1/4 [00:01<00:05,  1.75s/it]
+Average Metric: 1.89 / 2 (94.4%):  25%|██▌       | 1/4 [00:01<00:05,  1.75s/it] 
+Average Metric: 2.64 / 3 (88.0%):  50%|█████     | 2/4 [00:02<00:03,  1.75s/it]
+Average Metric: 2.64 / 3 (88.0%):  75%|███████▌  | 3/4 [00:02<00:00,  1.45it/s]
+Average Metric: 3.21 / 4 (80.3%):  75%|███████▌  | 3/4 [00:03<00:00,  1.45it/s]
+Average Metric: 3.21 / 4 (80.3%): 100%|██████████| 4/4 [00:03<00:00,  1.25it/s]
+Average Metric: 3.21 / 4 (80.3%): 100%|██████████| 4/4 [00:03<00:00,  1.18it/s]/Users/hongjixu/Documents/repos/sekai/.venv/lib/python3.11/site-packages/optuna/_experimental.py:31: ExperimentalWarning: Argument ``multivariate`` is an experimental feature. The interface can change in the future.
+  warnings.warn(
+
+
+  0%|          | 0/4 [00:00<?, ?it/s]
+Average Metric: 0.86 / 1 (85.7%):   0%|          | 0/4 [00:04<?, ?it/s]
+Average Metric: 0.86 / 1 (85.7%):  25%|██▌       | 1/4 [00:04<00:12,  4.22s/it]
+Average Metric: 1.75 / 2 (87.3%):  25%|██▌       | 1/4 [00:04<00:12,  4.22s/it]
+Average Metric: 1.75 / 2 (87.3%):  50%|█████     | 2/4 [00:04<00:03,  1.81s/it]
+Average Metric: 2.62 / 3 (87.4%):  50%|█████     | 2/4 [00:04<00:03,  1.81s/it]
+Average Metric: 3.62 / 4 (90.5%):  75%|███████▌  | 3/4 [00:04<00:01,  1.81s/it]
+Average Metric: 3.62 / 4 (90.5%): 100%|██████████| 4/4 [00:04<00:00,  1.26it/s]
+Average Metric: 3.62 / 4 (90.5%): 100%|██████████| 4/4 [00:04<00:00,  1.18s/it]
+
+  0%|          | 0/4 [00:00<?, ?it/s]
+Average Metric: 1.00 / 1 (100.0%):   0%|          | 0/4 [00:04<?, ?it/s]
+Average Metric: 1.00 / 1 (100.0%):  25%|██▌       | 1/4 [00:04<00:12,  4.20s/it]
+Average Metric: 1.57 / 2 (78.6%):  25%|██▌       | 1/4 [00:04<00:12,  4.20s/it] 
+Average Metric: 2.32 / 3 (77.4%):  50%|█████     | 2/4 [00:04<00:08,  4.20s/it]
+Average Metric: 2.32 / 3 (77.4%):  75%|███████▌  | 3/4 [00:04<00:01,  1.13s/it]
+Average Metric: 3.21 / 4 (80.3%):  75%|███████▌  | 3/4 [00:04<00:01,  1.13s/it]
+Average Metric: 3.21 / 4 (80.3%): 100%|██████████| 4/4 [00:04<00:00,  1.24s/it]
+
+  0%|          | 0/4 [00:00<?, ?it/s]
+Average Metric: 1.00 / 1 (100.0%):   0%|          | 0/4 [00:03<?, ?it/s]
+Average Metric: 1.00 / 1 (100.0%):  25%|██▌       | 1/4 [00:03<00:10,  3.36s/it]
+Average Metric: 1.86 / 2 (92.9%):  25%|██▌       | 1/4 [00:03<00:10,  3.36s/it] 
+Average Metric: 1.86 / 2 (92.9%):  50%|█████     | 2/4 [00:03<00:03,  1.58s/it]
+Average Metric: 2.73 / 3 (91.1%):  50%|█████     | 2/4 [00:03<00:03,  1.58s/it]
+Average Metric: 2.73 / 3 (91.1%):  75%|███████▌  | 3/4 [00:03<00:00,  1.06it/s]
+Average Metric: 3.62 / 4 (90.5%):  75%|███████▌  | 3/4 [00:04<00:00,  1.06it/s]
+Average Metric: 3.62 / 4 (90.5%): 100%|██████████| 4/4 [00:04<00:00,  1.22it/s]
+Average Metric: 3.62 / 4 (90.5%): 100%|██████████| 4/4 [00:04<00:00,  1.13s/it]
+
+  0%|          | 0/4 [00:00<?, ?it/s]
+Average Metric: 0.71 / 1 (71.4%):   0%|          | 0/4 [00:02<?, ?it/s]
+Average Metric: 0.71 / 1 (71.4%):  25%|██▌       | 1/4 [00:02<00:08,  2.76s/it]
+Average Metric: 1.59 / 2 (79.5%):  25%|██▌       | 1/4 [00:03<00:08,  2.76s/it]
+Average Metric: 1.59 / 2 (79.5%):  50%|█████     | 2/4 [00:03<00:02,  1.34s/it]
+Average Metric: 2.48 / 3 (82.6%):  50%|█████     | 2/4 [00:03<00:02,  1.34s/it]
+Average Metric: 2.48 / 3 (82.6%):  75%|███████▌  | 3/4 [00:03<00:00,  1.22it/s]
+Average Metric: 3.48 / 4 (87.0%):  75%|███████▌  | 3/4 [00:03<00:00,  1.22it/s]
+Average Metric: 3.48 / 4 (87.0%): 100%|██████████| 4/4 [00:03<00:00,  1.17it/s]
+
+  0%|          | 0/4 [00:00<?, ?it/s]
+Average Metric: 0.86 / 1 (85.7%):   0%|          | 0/4 [00:02<?, ?it/s]
+Average Metric: 0.86 / 1 (85.7%):  25%|██▌       | 1/4 [00:02<00:08,  2.86s/it]
+Average Metric: 1.73 / 2 (86.6%):  25%|██▌       | 1/4 [00:03<00:08,  2.86s/it]
+Average Metric: 1.73 / 2 (86.6%):  50%|█████     | 2/4 [00:03<00:02,  1.31s/it]
+Average Metric: 2.73 / 3 (91.1%):  50%|█████     | 2/4 [00:03<00:02,  1.31s/it]
+Average Metric: 2.73 / 3 (91.1%):  75%|███████▌  | 3/4 [00:03<00:00,  1.23it/s]
+Average Metric: 3.62 / 4 (90.5%):  75%|███████▌  | 3/4 [00:03<00:00,  1.23it/s]
+Average Metric: 3.62 / 4 (90.5%): 100%|██████████| 4/4 [00:03<00:00,  1.19it/s]
+
+  0%|          | 0/4 [00:00<?, ?it/s]
+Average Metric: 0.71 / 1 (71.4%):   0%|          | 0/4 [00:03<?, ?it/s]
+Average Metric: 0.71 / 1 (71.4%):  25%|██▌       | 1/4 [00:03<00:11,  3.90s/it]
+Average Metric: 1.46 / 2 (73.2%):  25%|██▌       | 1/4 [00:03<00:11,  3.90s/it]
+Average Metric: 2.35 / 3 (78.4%):  50%|█████     | 2/4 [00:03<00:07,  3.90s/it]
+Average Metric: 3.35 / 4 (83.8%):  75%|███████▌  | 3/4 [00:04<00:03,  3.90s/it]
+Average Metric: 3.35 / 4 (83.8%): 100%|██████████| 4/4 [00:04<00:00,  1.09it/s]
+Average Metric: 3.35 / 4 (83.8%): 100%|██████████| 4/4 [00:04<00:00,  1.14s/it]
+
+  0%|          | 0/4 [00:00<?, ?it/s]
+Average Metric: 0.71 / 1 (71.4%):   0%|          | 0/4 [00:03<?, ?it/s]
+Average Metric: 0.71 / 1 (71.4%):  25%|██▌       | 1/4 [00:03<00:09,  3.02s/it]
+Average Metric: 1.59 / 2 (79.5%):  25%|██▌       | 1/4 [00:03<00:09,  3.02s/it]
+Average Metric: 1.59 / 2 (79.5%):  50%|█████     | 2/4 [00:03<00:02,  1.32s/it]
+Average Metric: 2.48 / 3 (82.6%):  50%|█████     | 2/4 [00:03<00:02,  1.32s/it]
+Average Metric: 2.48 / 3 (82.6%):  75%|███████▌  | 3/4 [00:03<00:00,  1.27it/s]
+Average Metric: 3.48 / 4 (87.0%):  75%|███████▌  | 3/4 [00:03<00:00,  1.27it/s]
+Average Metric: 3.48 / 4 (87.0%): 100%|██████████| 4/4 [00:03<00:00,  1.71it/s]
+Average Metric: 3.48 / 4 (87.0%): 100%|██████████| 4/4 [00:03<00:00,  1.12it/s]
+
+  0%|          | 0/4 [00:00<?, ?it/s]
+Average Metric: 0.86 / 1 (85.7%):   0%|          | 0/4 [00:03<?, ?it/s]
+Average Metric: 0.86 / 1 (85.7%):  25%|██▌       | 1/4 [00:03<00:09,  3.01s/it]
+Average Metric: 1.75 / 2 (87.3%):  25%|██▌       | 1/4 [00:03<00:09,  3.01s/it]
+Average Metric: 1.75 / 2 (87.3%):  50%|█████     | 2/4 [00:03<00:02,  1.34s/it]
+Average Metric: 2.62 / 3 (87.4%):  50%|█████     | 2/4 [00:03<00:02,  1.34s/it]
+Average Metric: 2.62 / 3 (87.4%):  75%|███████▌  | 3/4 [00:03<00:00,  1.20it/s]
+Average Metric: 3.62 / 4 (90.5%):  75%|███████▌  | 3/4 [00:03<00:00,  1.20it/s]
+Average Metric: 3.62 / 4 (90.5%): 100%|██████████| 4/4 [00:03<00:00,  1.16it/s]
+
+  0%|          | 0/4 [00:00<?, ?it/s]
+Average Metric: 0.71 / 1 (71.4%):   0%|          | 0/4 [00:03<?, ?it/s]
+Average Metric: 0.71 / 1 (71.4%):  25%|██▌       | 1/4 [00:03<00:09,  3.04s/it]
+Average Metric: 1.59 / 2 (79.5%):  25%|██▌       | 1/4 [00:03<00:09,  3.04s/it]
+Average Metric: 1.59 / 2 (79.5%):  50%|█████     | 2/4 [00:03<00:02,  1.34s/it]
+Average Metric: 2.48 / 3 (82.6%):  50%|█████     | 2/4 [00:03<00:02,  1.34s/it]
+Average Metric: 2.48 / 3 (82.6%):  75%|███████▌  | 3/4 [00:03<00:00,  1.11it/s]
+Average Metric: 3.48 / 4 (87.0%):  75%|███████▌  | 3/4 [00:03<00:00,  1.11it/s]
+Average Metric: 3.48 / 4 (87.0%): 100%|██████████| 4/4 [00:03<00:00,  1.12it/s]
+
+  0%|          | 0/4 [00:00<?, ?it/s]
+Average Metric: 0.86 / 1 (85.7%):   0%|          | 0/4 [00:03<?, ?it/s]
+Average Metric: 0.86 / 1 (85.7%):  25%|██▌       | 1/4 [00:03<00:10,  3.55s/it]
+Average Metric: 1.73 / 2 (86.6%):  25%|██▌       | 1/4 [00:03<00:10,  3.55s/it]
+Average Metric: 1.73 / 2 (86.6%):  50%|█████     | 2/4 [00:03<00:03,  1.70s/it]
+Average Metric: 2.62 / 3 (87.4%):  50%|█████     | 2/4 [00:03<00:03,  1.70s/it]
+Average Metric: 3.62 / 4 (90.5%):  75%|███████▌  | 3/4 [00:04<00:01,  1.70s/it]
+Average Metric: 3.62 / 4 (90.5%): 100%|██████████| 4/4 [00:04<00:00,  1.32it/s]
+Average Metric: 3.62 / 4 (90.5%): 100%|██████████| 4/4 [00:04<00:00,  1.09s/it]02:53:25 - INFO - (prompt_optimizer.py:145) - ✅ DSPy prompt optimization completed
+02:53:25 - INFO - (main.py:73) - ✅ prompt optimization completed
+02:53:25 - INFO - (recommendation.py:119) - 🎯 Starting complete story recommendation - target story count: 10
+02:53:29 - INFO - (recommendation.py:91) - ✅ Recommendation completed, selected story IDs: [301039, 301011, 301023, 301017, 1004, 301016, 301002, 1007, 301004, 301010]
+02:53:29 - INFO - (recommendation.py:160) - ✅ Complete recommendation finished, returning 10 stories
+02:53:29 - INFO - (evaluation.py:50) - 📊 Evaluation Agent: start evaluating recommendations...
+02:53:29 - INFO - (recommendation.py:119) - 🎯 Starting complete story recommendation - target story count: 10
+02:53:34 - INFO - (recommendation.py:91) - ✅ Recommendation completed, selected story IDs: [301039, 301010, 301001, 301023, 1009, 301004, 301019, 301024, 301007, 301031]
+02:53:34 - INFO - (recommendation.py:160) - ✅ Complete recommendation finished, returning 10 stories
+02:53:34 - INFO - (main.py:123) -  2th evaluation - total score: 0.400
+02:53:34 - INFO - (main.py:126) -    Precision: 0.400
+02:53:34 - INFO - (main.py:151) - score improved: 0.300 → 0.400 (+0.100)
+02:53:34 - INFO - (main.py:367) - score change: [0.300, 0.400 ← latest]
+02:53:34 - INFO - (main.py:71) - 🔧 start prompt optimization, may take 2-3 minutes
+
+Bootstrapping set 1/6
+Bootstrapping set 2/6
+Bootstrapping set 3/6
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+ 50%|█████     | 1/2 [00:04<00:04,  4.29s/it]
+100%|██████████| 2/2 [00:08<00:00,  4.45s/it]
+100%|██████████| 2/2 [00:08<00:00,  4.43s/it]
+Bootstrapped 2 full traces after 1 examples for up to 1 rounds, amounting to 2 attempts.
+Bootstrapping set 4/6
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+ 50%|█████     | 1/2 [00:04<00:04,  4.55s/it]
+100%|██████████| 2/2 [00:07<00:00,  3.86s/it]
+100%|██████████| 2/2 [00:07<00:00,  3.96s/it]
+Bootstrapped 2 full traces after 1 examples for up to 1 rounds, amounting to 2 attempts.
+Bootstrapping set 5/6
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+ 50%|█████     | 1/2 [00:04<00:04,  4.30s/it]
+100%|██████████| 2/2 [00:07<00:00,  3.76s/it]
+100%|██████████| 2/2 [00:07<00:00,  3.84s/it]
+Bootstrapped 2 full traces after 1 examples for up to 1 rounds, amounting to 2 attempts.
+Bootstrapping set 6/6
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+ 50%|█████     | 1/2 [00:03<00:03,  3.91s/it]
+ 50%|█████     | 1/2 [00:03<00:03,  3.91s/it]
+Bootstrapped 1 full traces after 1 examples for up to 1 rounds, amounting to 1 attempts.
+Error getting source code: unhashable type: 'list'.
+
+Running without program aware proposer.
+
+  0%|          | 0/4 [00:00<?, ?it/s]
+Average Metric: 0.86 / 1 (85.7%):   0%|          | 0/4 [00:03<?, ?it/s]
+Average Metric: 0.86 / 1 (85.7%):  25%|██▌       | 1/4 [00:03<00:11,  3.73s/it]
+Average Metric: 1.73 / 2 (86.6%):  25%|██▌       | 1/4 [00:03<00:11,  3.73s/it]
+Average Metric: 2.62 / 3 (87.4%):  50%|█████     | 2/4 [00:03<00:07,  3.73s/it]
+Average Metric: 3.62 / 4 (90.5%):  75%|███████▌  | 3/4 [00:04<00:03,  3.73s/it]
+Average Metric: 3.62 / 4 (90.5%): 100%|██████████| 4/4 [00:04<00:00,  1.04it/s]
+Average Metric: 3.62 / 4 (90.5%): 100%|██████████| 4/4 [00:04<00:00,  1.17s/it]
+
+  0%|          | 0/4 [00:00<?, ?it/s]
+Average Metric: 1.00 / 1 (100.0%):   0%|          | 0/4 [00:04<?, ?it/s]
+Average Metric: 1.00 / 1 (100.0%):  25%|██▌       | 1/4 [00:04<00:12,  4.15s/it]
+Average Metric: 1.88 / 2 (93.8%):  25%|██▌       | 1/4 [00:04<00:12,  4.15s/it] 
+Average Metric: 2.88 / 3 (95.8%):  50%|█████     | 2/4 [00:04<00:08,  4.15s/it]
+Average Metric: 3.73 / 4 (93.3%):  75%|███████▌  | 3/4 [00:04<00:04,  4.15s/it]
+Average Metric: 3.73 / 4 (93.3%): 100%|██████████| 4/4 [00:04<00:00,  1.06s/it]
+
+  0%|          | 0/4 [00:00<?, ?it/s]
+Average Metric: 0.57 / 1 (57.1%):   0%|          | 0/4 [00:04<?, ?it/s]
+Average Metric: 0.57 / 1 (57.1%):  25%|██▌       | 1/4 [00:04<00:12,  4.20s/it]
+Average Metric: 1.57 / 2 (78.6%):  25%|██▌       | 1/4 [00:04<00:12,  4.20s/it]
+Average Metric: 1.57 / 2 (78.6%):  50%|█████     | 2/4 [00:04<00:03,  1.97s/it]
+Average Metric: 2.57 / 3 (85.7%):  50%|█████     | 2/4 [00:04<00:03,  1.97s/it]
+Average Metric: 3.45 / 4 (86.2%):  75%|███████▌  | 3/4 [00:05<00:01,  1.97s/it]
+Average Metric: 3.45 / 4 (86.2%): 100%|██████████| 4/4 [00:05<00:00,  1.11it/s]
+Average Metric: 3.45 / 4 (86.2%): 100%|██████████| 4/4 [00:05<00:00,  1.29s/it]
+
+  0%|          | 0/4 [00:00<?, ?it/s]
+Average Metric: 1.00 / 1 (100.0%):   0%|          | 0/4 [00:03<?, ?it/s]
+Average Metric: 1.00 / 1 (100.0%):  25%|██▌       | 1/4 [00:03<00:10,  3.51s/it]
+Average Metric: 1.83 / 2 (91.7%):  25%|██▌       | 1/4 [00:03<00:10,  3.51s/it] 
+Average Metric: 1.83 / 2 (91.7%):  50%|█████     | 2/4 [00:03<00:03,  1.65s/it]
+Average Metric: 2.83 / 3 (94.4%):  50%|█████     | 2/4 [00:03<00:03,  1.65s/it]
+Average Metric: 3.83 / 4 (95.8%):  75%|███████▌  | 3/4 [00:03<00:01,  1.65s/it]
+Average Metric: 3.83 / 4 (95.8%): 100%|██████████| 4/4 [00:03<00:00,  1.04it/s]
+
+  0%|          | 0/4 [00:00<?, ?it/s]
+Average Metric: 0.86 / 1 (85.7%):   0%|          | 0/4 [00:04<?, ?it/s]
+Average Metric: 0.86 / 1 (85.7%):  25%|██▌       | 1/4 [00:04<00:12,  4.08s/it]
+Average Metric: 1.86 / 2 (92.9%):  25%|██▌       | 1/4 [00:04<00:12,  4.08s/it]
+Average Metric: 1.86 / 2 (92.9%):  50%|█████     | 2/4 [00:04<00:03,  1.95s/it]
+Average Metric: 2.73 / 3 (91.1%):  50%|█████     | 2/4 [00:04<00:03,  1.95s/it]
+Average Metric: 2.73 / 3 (91.1%):  75%|███████▌  | 3/4 [00:04<00:01,  1.16s/it]
+Average Metric: 3.73 / 4 (93.3%):  75%|███████▌  | 3/4 [00:05<00:01,  1.16s/it]
+Average Metric: 3.73 / 4 (93.3%): 100%|██████████| 4/4 [00:05<00:00,  1.04s/it]
+Average Metric: 3.73 / 4 (93.3%): 100%|██████████| 4/4 [00:05<00:00,  1.40s/it]
+
+  0%|          | 0/4 [00:00<?, ?it/s]
+Average Metric: 0.88 / 1 (87.5%):   0%|          | 0/4 [00:03<?, ?it/s]
+Average Metric: 0.88 / 1 (87.5%):  25%|██▌       | 1/4 [00:03<00:11,  3.69s/it]
+Average Metric: 1.73 / 2 (86.6%):  25%|██▌       | 1/4 [00:03<00:11,  3.69s/it]
+Average Metric: 2.62 / 3 (87.4%):  50%|█████     | 2/4 [00:04<00:07,  3.69s/it]
+Average Metric: 2.62 / 3 (87.4%):  75%|███████▌  | 3/4 [00:04<00:01,  1.08s/it]
+Average Metric: 3.62 / 4 (90.5%):  75%|███████▌  | 3/4 [00:04<00:01,  1.08s/it]
+Average Metric: 3.62 / 4 (90.5%): 100%|██████████| 4/4 [00:04<00:00,  1.27it/s]
+Average Metric: 3.62 / 4 (90.5%): 100%|██████████| 4/4 [00:04<00:00,  1.06s/it]
+
+  0%|          | 0/4 [00:00<?, ?it/s]
+Average Metric: 0.71 / 1 (71.4%):   0%|          | 0/4 [00:03<?, ?it/s]
+Average Metric: 0.71 / 1 (71.4%):  25%|██▌       | 1/4 [00:03<00:11,  3.82s/it]
+Average Metric: 1.21 / 2 (60.7%):  25%|██▌       | 1/4 [00:03<00:11,  3.82s/it]
+Average Metric: 2.05 / 3 (68.3%):  50%|█████     | 2/4 [00:03<00:07,  3.82s/it]
+Average Metric: 2.80 / 4 (69.9%):  75%|███████▌  | 3/4 [00:03<00:03,  3.82s/it]
+Average Metric: 2.80 / 4 (69.9%): 100%|██████████| 4/4 [00:03<00:00,  1.33it/s]
+Average Metric: 2.80 / 4 (69.9%): 100%|██████████| 4/4 [00:03<00:00,  1.02it/s]
+
+  0%|          | 0/4 [00:00<?, ?it/s]
+Average Metric: 0.88 / 1 (87.5%):   0%|          | 0/4 [00:03<?, ?it/s]
+Average Metric: 0.88 / 1 (87.5%):  25%|██▌       | 1/4 [00:03<00:11,  3.78s/it]
+Average Metric: 1.73 / 2 (86.6%):  25%|██▌       | 1/4 [00:03<00:11,  3.78s/it]
+Average Metric: 2.73 / 3 (91.1%):  50%|█████     | 2/4 [00:04<00:07,  3.78s/it]
+Average Metric: 2.73 / 3 (91.1%):  75%|███████▌  | 3/4 [00:04<00:01,  1.13s/it]
+Average Metric: 3.62 / 4 (90.5%):  75%|███████▌  | 3/4 [00:04<00:01,  1.13s/it]
+Average Metric: 3.62 / 4 (90.5%): 100%|██████████| 4/4 [00:04<00:00,  1.05s/it]
+
+  0%|          | 0/4 [00:00<?, ?it/s]
+Average Metric: 0.86 / 1 (85.7%):   0%|          | 0/4 [00:03<?, ?it/s]
+Average Metric: 0.86 / 1 (85.7%):  25%|██▌       | 1/4 [00:03<00:11,  3.70s/it]
+Average Metric: 1.73 / 2 (86.6%):  25%|██▌       | 1/4 [00:03<00:11,  3.70s/it]
+Average Metric: 1.73 / 2 (86.6%):  50%|█████     | 2/4 [00:03<00:03,  1.64s/it]
+Average Metric: 2.73 / 3 (91.1%):  50%|█████     | 2/4 [00:03<00:03,  1.64s/it]
+Average Metric: 3.73 / 4 (93.3%):  75%|███████▌  | 3/4 [00:03<00:01,  1.64s/it]
+Average Metric: 3.73 / 4 (93.3%): 100%|██████████| 4/4 [00:03<00:00,  1.00it/s]
+
+  0%|          | 0/4 [00:00<?, ?it/s]
+Average Metric: 0.88 / 1 (87.5%):   0%|          | 0/4 [00:03<?, ?it/s]
+Average Metric: 0.88 / 1 (87.5%):  25%|██▌       | 1/4 [00:03<00:11,  3.88s/it]
+Average Metric: 1.73 / 2 (86.6%):  25%|██▌       | 1/4 [00:03<00:11,  3.88s/it]
+Average Metric: 2.62 / 3 (87.4%):  50%|█████     | 2/4 [00:04<00:07,  3.88s/it]
+Average Metric: 2.62 / 3 (87.4%):  75%|███████▌  | 3/4 [00:04<00:01,  1.18s/it]
+Average Metric: 3.62 / 4 (90.5%):  75%|███████▌  | 3/4 [00:04<00:01,  1.18s/it]
+Average Metric: 3.62 / 4 (90.5%): 100%|██████████| 4/4 [00:04<00:00,  1.09s/it]
+
+  0%|          | 0/4 [00:00<?, ?it/s]
+Average Metric: 1.00 / 1 (100.0%):   0%|          | 0/4 [00:03<?, ?it/s]
+Average Metric: 1.00 / 1 (100.0%):  25%|██▌       | 1/4 [00:03<00:10,  3.42s/it]
+Average Metric: 2.00 / 2 (100.0%):  25%|██▌       | 1/4 [00:03<00:10,  3.42s/it]
+Average Metric: 3.00 / 3 (100.0%):  50%|█████     | 2/4 [00:03<00:06,  3.42s/it]
+Average Metric: 3.83 / 4 (95.8%):  75%|███████▌  | 3/4 [00:03<00:03,  3.42s/it] 
+Average Metric: 3.83 / 4 (95.8%): 100%|██████████| 4/4 [00:03<00:00,  1.15it/s]02:55:19 - INFO - (prompt_optimizer.py:145) - ✅ DSPy prompt optimization completed
+02:55:19 - INFO - (main.py:73) - ✅ prompt optimization completed
+02:55:19 - INFO - (main.py:367) - score change: [0.300, 0.400 ← latest]
+02:55:19 - INFO - (recommendation.py:119) - 🎯 Starting complete story recommendation - target story count: 10
+02:55:24 - INFO - (recommendation.py:91) - ✅ Recommendation completed, selected story IDs: [301039, 301011, 301040, 301023, 301017, 301002, 301016, 301004, 301010, 1009]
+02:55:24 - INFO - (recommendation.py:160) - ✅ Complete recommendation finished, returning 10 stories
+02:55:24 - INFO - (main.py:367) - score change: [0.300, 0.400 ← latest]
+02:55:24 - INFO - (evaluation.py:50) - 📊 Evaluation Agent: start evaluating recommendations...
+02:55:24 - INFO - (recommendation.py:119) - 🎯 Starting complete story recommendation - target story count: 10
+02:55:28 - INFO - (recommendation.py:91) - ✅ Recommendation completed, selected story IDs: [301039, 301010, 301001, 301023, 301004, 1009, 301024, 301007, 1003, 301011]
+02:55:28 - INFO - (recommendation.py:160) - ✅ Complete recommendation finished, returning 10 stories
+02:55:28 - INFO - (main.py:123) -  3th evaluation - total score: 0.600
+02:55:28 - INFO - (main.py:126) -    Precision: 0.600
+02:55:28 - INFO - (main.py:151) - score improved: 0.400 → 0.600 (+0.200)
+02:55:28 - INFO - (main.py:199) - ⏰ Time budget exceeded (3 minutes)
+02:55:28 - INFO - (main.py:367) - score change: [0.300, 0.400, 0.600 ← latest]
+02:55:28 - INFO - (main.py:401) - ============================================================
+02:55:28 - INFO - (main.py:402) - optimization summary:
+02:55:28 - INFO - (main.py:403) -    initial → final: 0.300 → 0.600 (Δ+0.300)
+02:55:28 - INFO - (main.py:406) -    iterations: 3, time: 3.6 minutes
+02:55:28 - INFO - (main.py:409) - ✅ autonomous optimization completed!
+02:55:28 - INFO - (main.py:420) - ============================================================
+02:55:28 - INFO - (main.py:421) - 💰 token consumption and cost analysis:
+02:55:28 - INFO - (main.py:422) -    🔢 LLM call total: 36
+02:55:28 - INFO - (main.py:423) -    📊 total token consumption: 167,178
+02:55:28 - INFO - (main.py:424) -       - input token: 149,678
+02:55:28 - INFO - (main.py:425) -       - output token: 17,500
+02:55:28 - INFO - (main.py:426) -    💵 estimated total cost: $0.0183
+02:55:28 - INFO - (main.py:427) -    ⏱️ average call duration: 3386 ms
+02:55:28 - INFO - (main.py:437) -    📈 efficiency metrics:
+02:55:28 - INFO - (main.py:438) -       - cost per improvement: $0.0610
+02:55:28 - INFO - (main.py:439) -       - tokens per improvement: 557,260
+02:55:28 - INFO - (main.py:379) - ============================================================
+02:55:28 - INFO - (main.py:380) - final recommendations:
+02:55:28 - INFO - (main.py:384) - 📚 final recommended story IDs: [301039, 301011, 301040, 301023, 301017, 301002, 301016, 301004, 301010, 1009]
+02:55:28 - INFO - (main.py:510) - SSES closed
+

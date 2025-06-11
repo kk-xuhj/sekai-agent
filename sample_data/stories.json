@@ -1,0 +1,354 @@
+{
+  "stories": [
+    {
+      "id": 301001,
+      "title": "Sasuke's Cooking Disaster!",
+      "intro": "Sasuke is forced to join a cooking contest against Sanji, Soma, and Naruto... with explosive results.",
+      "tags": ["naruto", "one piece", "food wars", "cooking", "rivalry", "humor"],
+      "created_at": "2024-04-01T10:00:00Z"
+    },
+    {
+      "id": 301002,
+      "title": "The Villain Rehab Program",
+      "intro": "Bakugo, Dabi, and Hisoka are sentenced to live in a shared dorm and attend therapy together.",
+      "tags": ["my hero academia", "hunter x hunter", "villain", "redemption", "slice of life", "therapy"],
+      "created_at": "2024-04-02T10:00:00Z"
+    },
+    {
+      "id": 301003,
+      "title": "Dating Levi is Hard Mode",
+      "intro": "You're dating Levi Ackerman... but Erwin and Hange won't stop interfering.",
+      "tags": ["attack on titan", "romance", "jealousy", "awkward moments", "love triangle"],
+      "created_at": "2024-04-03T10:00:00Z"
+    },
+    {
+      "id": 301004,
+      "title": "Power Swap: Tanjiro Becomes a Titan",
+      "intro": "A dimensional glitch swaps Tanjiro into the world of Titans—and gives him transformation powers.",
+      "tags": ["demon slayer", "attack on titan", "crossover", "power swap", "confusion", "action"],
+      "created_at": "2024-04-04T10:00:00Z"
+    },
+    {
+      "id": 301005,
+      "title": "Roommates With Gojo Satoru",
+      "intro": "Living with Gojo seemed cool—until he started inviting cursed spirits to the living room.",
+      "tags": ["jujutsu kaisen", "roommates", "slice of life", "chaos", "supernatural"],
+      "created_at": "2024-04-05T10:00:00Z"
+    },
+    {
+      "id": 301006,
+      "title": "Death Note in the Love Hotel",
+      "intro": "You find a Death Note in the most unexpected place: the drawer of a seedy love hotel.",
+      "tags": ["death note", "mystery", "suspense", "dark comedy", "crime"],
+      "created_at": "2024-04-06T10:00:00Z"
+    },
+    {
+      "id": 301007,
+      "title": "The Maid Cafe Training Arc",
+      "intro": "Gon, Luffy, and Deku must work undercover at a maid café for a secret mission.",
+      "tags": ["hunter x hunter", "one piece", "my hero academia", "crossover", "maid café", "undercover", "comedy"],
+      "created_at": "2024-04-07T10:00:00Z"
+    },
+    {
+      "id": 301008,
+      "title": "Yuji Itadori's Forbidden Wish",
+      "intro": "Yuji makes a wish to a cursed object—one that promises to make Megumi fall in love with him.",
+      "tags": ["jujutsu kaisen", "romance", "dark wish", "unintended consequences", "friendship"],
+      "created_at": "2024-04-08T10:00:00Z"
+    },
+    {
+      "id": 301009,
+      "title": "Sakura Haruno vs. Internet Hate",
+      "intro": "Sakura discovers the anime fandom and isn't happy about what she reads.",
+      "tags": ["naruto", "meta", "internet", "self-awareness", "redemption", "comedy"],
+      "created_at": "2024-04-09T10:00:00Z"
+    },
+    {
+      "id": 301010,
+      "title": "Katsuki Bakugo's Babysitting Nightmare",
+      "intro": "Bakugo is forced to babysit Eri, Anya, and Nezuko for a weekend. He is not okay.",
+      "tags": ["my hero academia", "spy x family", "demon slayer", "crossover", "babysitting", "chaotic good"],
+      "created_at": "2024-04-10T10:00:00Z"
+    },
+    {
+      "id": 301011,
+      "title": "The Idol Auditions of Hell",
+      "intro": "Levi, Killua, and Sasuke are forced to compete in a school idol competition.",
+      "tags": ["idol", "parody", "competition", "boys", "awkward", "comedy"],
+      "created_at": "2024-04-11T10:00:00Z"
+    },
+    {
+      "id": 301012,
+      "title": "Isekai'd Into My Own Fanfic",
+      "intro": "You wake up in your cringy old anime fanfic—and your OC boyfriend is real.",
+      "tags": ["isekai", "meta", "fanfic", "reverse harem", "humor", "wish fulfillment"],
+      "created_at": "2024-04-12T10:00:00Z"
+    },
+    {
+      "id": 301013,
+      "title": "Aizawa’s Secret Cat Café",
+      "intro": "You discover your homeroom teacher runs a secret cat café on weekends.",
+      "tags": ["my hero academia", "cats", "slice of life", "secret identity", "comfort"],
+      "created_at": "2024-04-13T10:00:00Z"
+    },
+    {
+      "id": 301014,
+      "title": "Nezuko’s First Sleepover",
+      "intro": "Tanjiro organizes a girls’ sleepover for Nezuko. Chaos, snacks, and pillow fights ensue.",
+      "tags": ["demon slayer", "slice of life", "sleepover", "comedy", "cute"],
+      "created_at": "2024-04-14T10:00:00Z"
+    },
+    {
+      "id": 301015,
+      "title": "Gon and Killua's High School AU",
+      "intro": "Gon and Killua enroll in a normal high school... or so they think.",
+      "tags": ["hunter x hunter", "au", "school life", "friendship", "mystery"],
+      "created_at": "2024-04-15T10:00:00Z"
+    },
+    {
+      "id": 301016,
+      "title": "Midoriya's Fake Dating Mission",
+      "intro": "To avoid suspicion on a mission, Deku must pretend to date Toga... and she's very into it.",
+      "tags": ["my hero academia", "fake dating", "villain x hero", "mission gone wrong", "tension"],
+      "created_at": "2024-04-16T10:00:00Z"
+    },
+    {
+      "id": 301017,
+      "title": "Light Yagami's TikTok Account",
+      "intro": "Light goes viral for motivational TikToks—until L starts leaving cryptic duets.",
+      "tags": ["death note", "social media", "viral", "rivalry", "satire"],
+      "created_at": "2024-04-17T10:00:00Z"
+    },
+    {
+      "id": 301018,
+      "title": "Naruto's Therapy Arc",
+      "intro": "After years of trauma, Kakashi forces Naruto to attend therapy—with Gaara as his partner.",
+      "tags": ["naruto", "mental health", "healing", "friendship", "introspection"],
+      "created_at": "2024-04-18T10:00:00Z"
+    },
+    {
+      "id": 301019,
+      "title": "Senku vs. Megumi: Bento War!",
+      "intro": "A simple lunch turns into a bento-box science vs. cuisine showdown.",
+      "tags": ["dr. stone", "jujutsu kaisen", "bento", "crossover", "competition", "food"],
+      "created_at": "2024-04-19T10:00:00Z"
+    },
+    {
+      "id": 301020,
+      "title": "Eren's College Roommate is Gojo",
+      "intro": "They said college would be fun. Eren didn't expect infinity tricks and blindfolds.",
+      "tags": ["attack on titan", "jujutsu kaisen", "college", "crossover", "chaotic roommates"],
+      "created_at": "2024-04-20T10:00:00Z"
+    },
+    {
+      "id": 301021,
+      "title": "Tanjiro Joins the Host Club",
+      "intro": "Mistaken for a student, Tanjiro is recruited into the Ouran Host Club.",
+      "tags": ["demon slayer", "ouran host club", "crossover", "romantic comedy", "school"],
+      "created_at": "2024-04-21T10:00:00Z"
+    },
+    {
+      "id": 301022,
+      "title": "Boys vs. Girls: Beach Episode Brawl",
+      "intro": "The class beach trip turns into a chaotic war over who builds the better sandcastle.",
+      "tags": ["beach episode", "competition", "comedy", "fanservice", "slice of life"],
+      "created_at": "2024-04-22T10:00:00Z"
+    },
+    {
+      "id": 301023,
+      "title": "Levi's Laundry Rage",
+      "intro": "When someone uses Levi's special detergent, heads will roll.",
+      "tags": ["attack on titan", "comedy", "ocd", "roommate drama", "petty revenge"],
+      "created_at": "2024-04-23T10:00:00Z"
+    },
+    {
+      "id": 301024,
+      "title": "Spy x Family Babysits Demon Kids",
+      "intro": "Loid is tasked with watching over Nezuko and Eri. What could go wrong?",
+      "tags": ["spy x family", "demon slayer", "crossover", "babysitting", "chaos"],
+      "created_at": "2024-04-24T10:00:00Z"
+    },
+    {
+      "id": 301025,
+      "title": "Sukuna's Dating Profile",
+      "intro": "A cursed object accidentally registers Sukuna on a dating app.",
+      "tags": ["jujutsu kaisen", "romantic comedy", "curse", "modern au", "dating app"],
+      "created_at": "2024-04-25T10:00:00Z"
+    },
+    {
+      "id": 301026,
+      "title": "Bakugo Becomes a Kindergarten Teacher",
+      "intro": "When UA runs a training program, Bakugo is stuck teaching toddlers.",
+      "tags": ["my hero academia", "kids", "redemption arc", "chaotic good", "slice of life"],
+      "created_at": "2024-04-26T10:00:00Z"
+    },
+    {
+      "id": 301027,
+      "title": "Inosuke's First Mall Experience",
+      "intro": "Inosuke tries to understand escalators and food courts. It doesn’t go well.",
+      "tags": ["demon slayer", "modern au", "fish out of water", "humor", "shopping mall"],
+      "created_at": "2024-04-27T10:00:00Z"
+    },
+    {
+      "id": 301028,
+      "title": "Eri's Magical Girl Transformation",
+      "intro": "Eri finds a mysterious locket that gives her magical powers—but she's still five.",
+      "tags": ["my hero academia", "magical girl", "children", "transformation", "slice of life"],
+      "created_at": "2024-04-28T10:00:00Z"
+    },
+    {
+      "id": 301029,
+      "title": "Your New College Roommate is Luffy",
+      "intro": "All you wanted was a quiet dorm. Instead, you got Luffy... and his entire crew.",
+      "tags": ["one piece", "college au", "roommates", "chaos", "comedy"],
+      "created_at": "2024-04-29T10:00:00Z"
+    },
+    {
+      "id": 301030,
+      "title": "Naruto's Speed Dating Disaster",
+      "intro": "Naruto tries speed dating to move on. Every date ends in disaster.",
+      "tags": ["naruto", "romantic comedy", "speed dating", "awkward moments", "heartbreak"],
+      "created_at": "2024-04-30T10:00:00Z"
+    },
+    {
+      "id": 301031,
+      "title": "Hinata Joins the Survey Corps",
+      "intro": "After a volleyball injury, Hinata wakes up in the world of Titans.",
+      "tags": ["haikyuu", "attack on titan", "isekai", "crossover", "sports vs survival"],
+      "created_at": "2024-05-01T10:00:00Z"
+    },
+    {
+      "id": 301032,
+      "title": "Zenitsu Gets a Love Letter",
+      "intro": "Zenitsu receives a love letter... from an unexpected admirer.",
+      "tags": ["demon slayer", "romance", "misunderstanding", "comedy", "shy boy"],
+      "created_at": "2024-05-02T10:00:00Z"
+    },
+    {
+      "id": 301033,
+      "title": "Killua’s Sleepover Survival Guide",
+      "intro": "Killua is invited to an all-boys anime sleepover. He’s not happy about it.",
+      "tags": ["hunter x hunter", "slice of life", "comedy", "sleepover", "chaos"],
+      "created_at": "2024-05-03T10:00:00Z"
+    },
+    {
+      "id": 301034,
+      "title": "Nezuko Starts a Vlog",
+      "intro": "Tanjiro helps Nezuko launch her own YouTube channel. Demon tips and chaos follow.",
+      "tags": ["demon slayer", "social media", "vlog", "slice of life", "brother sister"],
+      "created_at": "2024-05-04T10:00:00Z"
+    },
+    {
+      "id": 301035,
+      "title": "Todoroki Gets a Dog",
+      "intro": "Shoto gets a support dog to cope with emotional repression. It turns out to be magical.",
+      "tags": ["my hero academia", "pets", "healing", "supernatural", "comfort"],
+      "created_at": "2024-05-05T10:00:00Z"
+    },
+    {
+      "id": 301036,
+      "title": "Yuno’s Accidental Wish",
+      "intro": "Yuno wishes for a peaceful life—and ends up in a farming simulator.",
+      "tags": ["black clover", "isekai", "wish gone wrong", "farming life", "comedy"],
+      "created_at": "2024-05-06T10:00:00Z"
+    },
+    {
+      "id": 301037,
+      "title": "Muzan Joins a Book Club",
+      "intro": "To go unnoticed, Muzan disguises himself and joins a suburban book club.",
+      "tags": ["demon slayer", "disguise", "humor", "slice of life", "undercover"],
+      "created_at": "2024-05-07T10:00:00Z"
+    },
+    {
+      "id": 301038,
+      "title": "Erwin's Secret Kpop Obsession",
+      "intro": "The scouts discover their commander runs a secret K-pop stan account.",
+      "tags": ["attack on titan", "secret hobby", "kpop", "comedy", "fandom"],
+      "created_at": "2024-05-08T10:00:00Z"
+    },
+    {
+      "id": 301039,
+      "title": "L vs. Gojo: Poker Night",
+      "intro": "A poker night between Gojo and L turns into a 5D psychological war.",
+      "tags": ["jujutsu kaisen", "death note", "crossover", "mind games", "competition"],
+      "created_at": "2024-05-09T10:00:00Z"
+    },
+    {
+      "id": 301040,
+      "title": "Class 1-A Gets a New Drama Teacher",
+      "intro": "The new theater coach is none other than Hisoka. Expect chaos.",
+      "tags": ["my hero academia", "hunter x hunter", "crossover", "theater", "madness"],
+      "created_at": "2024-05-10T10:00:00Z"
+    },
+    {
+      "id": 1001,
+      "title": "Naruto's Ramen Rivalry",
+      "intro": "Ichiraku Ramen announces a cooking contest, and Naruto must face Sasuke's surprising culinary skills.",
+      "tags": ["naruto", "cooking", "rivalry", "comedy"],
+      "created_at": "2024-06-12T10:00:00Z"
+    },
+    {
+      "id": 1002,
+      "title": "Gohan Babysits Luffy?!",
+      "intro": "When Chi-Chi goes on vacation, Gohan is tasked with looking after a hyper Luffy.",
+      "tags": ["dragon ball", "one piece", "babysitting", "chaos"],
+      "created_at": "2024-06-12T10:05:00Z"
+    },
+    {
+      "id": 1003,
+      "title": "Kakashi’s Blind Date Mishap",
+      "intro": "Kakashi is set up on a blind date but things spiral out of control when Inosuke crashes the café.",
+      "tags": ["naruto", "demon slayer", "romance", "chaos"],
+      "created_at": "2024-06-12T10:10:00Z"
+    },
+    {
+      "id": 1004,
+      "title": "Gintoki Accidentally Joins UA High",
+      "intro": "Due to a paperwork mix-up, Gintoki finds himself enrolled as a hero student.",
+      "tags": ["gintama", "my hero academia", "comedy", "school life"],
+      "created_at": "2024-06-12T10:15:00Z"
+    },
+    {
+      "id": 1005,
+      "title": "Midoriya and the Cursed Sword",
+      "intro": "Izuku stumbles upon a cursed blade that links him to the world of Demon Slayer.",
+      "tags": ["my hero academia", "demon slayer", "cursed item", "adventure"],
+      "created_at": "2024-06-12T10:20:00Z"
+    },
+    {
+      "id": 1006,
+      "title": "Nezuko Enrolls in Pokemon Academy",
+      "intro": "To better control her instincts, Nezuko trains with Pokémon and bonds with Pikachu.",
+      "tags": ["demon slayer", "pokemon", "school", "slice of life"],
+      "created_at": "2024-06-12T10:25:00Z"
+    },
+    {
+      "id": 1007,
+      "title": "Attack on Gym Class!",
+      "intro": "Levi and Mikasa are assigned as substitute P.E. teachers at UA, and their training is brutal.",
+      "tags": ["attack on titan", "my hero academia", "training", "crossover"],
+      "created_at": "2024-06-12T10:30:00Z"
+    },
+    {
+      "id": 1008,
+      "title": "Tanjiro’s Tea Ceremony Trouble",
+      "intro": "A simple tea ceremony at the U.A. turns chaotic when Tanjiro accidentally uses demon-scented herbs.",
+      "tags": ["demon slayer", "my hero academia", "comedy", "cultural mix-up"],
+      "created_at": "2024-06-12T10:35:00Z"
+    },
+    {
+      "id": 1009,
+      "title": "Jujutsu Idol Showdown",
+      "intro": "Gojo recruits his students for a charity idol performance, but they’re up against Team Naruto.",
+      "tags": ["jujutsu kaisen", "naruto", "music", "competition"],
+      "created_at": "2024-06-12T10:40:00Z"
+    },
+    {
+      "id": 1010,
+      "title": "Luffy’s Lost in the Soul Society",
+      "intro": "Luffy wakes up in Bleach’s Soul Society with no clue how he got there—and a hollow is now his pet.",
+      "tags": ["one piece", "bleach", "isekai", "comedy"],
+      "created_at": "2024-06-12T10:45:00Z"
+    }
+  ]
+}
