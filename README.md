@@ -8,7 +8,8 @@ This project implements a multi-agent system designed to autonomously optimize a
 **1. Setup Environment**
 ```bash
 # Create a virtual environment
-uv sync
+uv sync -p 3.11
+source .venv/bin/activate
 ```
 
 **2. Export Your GOOGLE API KEY**
@@ -42,7 +43,7 @@ bash start.sh
 
 ## Agent Roles
 
-The system is composed of three specialized agents. Note that you can easily change the model in the [agents llm config](/config/config.yaml#agents).
+The system is composed of three specialized agents. Note that you can easily change the model in the [agents llm config](https://github.com/kk-xuhj/sekai-agent/blob/7ef56551a18cd4d6fdcd7dc131745d2dd4ed5a97/config/config.yaml#L70).
 
 1.  **`RecommendationAgent`**
     - **Purpose**: To provide 10 story recommendations for a user given a small set of their preference tags.
